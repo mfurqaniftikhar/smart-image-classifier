@@ -1,23 +1,27 @@
 # Core Framework
-streamlit>=1.28.0
+streamlit==1.28.1
 
 # Deep Learning
-tensorflow>=2.13.0
+tensorflow==2.13.0
+keras==2.13.1
 
 # Machine Learning
-scikit-learn>=1.3.0
+scikit-learn==1.3.2
 
 # Image Processing
-Pillow>=10.0.0
-opencv-python-headless>=4.8.0
+Pillow==10.1.0
+opencv-python-headless==4.8.1.78
 
 # Data Processing
-numpy>=1.24.0
-pandas>=2.0.0
+numpy==1.24.3
+pandas==2.1.3
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
+matplotlib==3.8.0
+seaborn==0.13.0
 
 # Model Persistence
-joblib>=1.3.0
+joblib==1.3.2
+
+# Utilities
+python-dateutil==2.8.2
