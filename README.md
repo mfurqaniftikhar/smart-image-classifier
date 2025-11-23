@@ -76,7 +76,7 @@ Clear data with one click
 
 🌐 Live Demo
 Deployed on Streamlit Cloud:
-https://your-app-name.streamlit.app
+https://smart-image-classifier-3dzacuwrpqcgx2bu3mggwc.streamlit.app/
 Try it now - No installation needed! Upload karo aur dekho AI kaise kaam karta hai.
 
 🔄 How It Works
@@ -177,7 +177,7 @@ Ya manually jao: http://localhost:8501
 ⚡ Quick Start
 5 Minutes Mein Start Karo:
 bash# 1. Clone
-git clone https://github.com/yourusername/smart-image-classifier.git
+git clone https://github.com/mfurqaniftikhar/smart-image-classifier.git
 cd smart-image-classifier
 
 # 2. Install
@@ -702,7 +702,7 @@ venv/
 
 **Step 4: Post-Deployment**
 ```
-Your app URL: https://your-app-name.streamlit.app
+https://smart-image-classifier-3dzacuwrpqcgx2bu3mggwc.streamlit.app/
 
 Features:
 ✅ Auto-restart on code changes
@@ -727,8 +727,6 @@ WORKDIR /app
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-
-COPY . .
 
 EXPOSE 8501
 
